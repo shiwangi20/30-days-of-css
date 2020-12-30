@@ -1,0 +1,62 @@
+.pricing-table{
+    display: flex;
+    gap: 10px;
+}
+
+.pricing-block{
+    background: white;
+    padding: 10px;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #555555;
+}
+
+.pricing-header{
+    text-transform: uppercase;
+    font-size: 1.4rem;
+}
+
+.pricing-heading{
+    padding: 10px;
+    font-weight: 700;
+}
+
+.pricing-price{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.pricing-price__currency{
+    opacity: 0.6;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.pricing-price__value{
+    opacity: 0.8;
+    font-size: 5rem;
+    font-weight: 300;
+}
+
+.pricing-price__duration{
+    opacity: 0.6;
+    font-size: 1.4rem;
+}
+
+.pricing-body{
+    margin-top: 20px;
+}
+
+.pricing-features{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.pricing-features li{
+    padding: 10px;
+}
