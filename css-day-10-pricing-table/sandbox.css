@@ -1,16 +1,18 @@
 .pricing-table{
+    margin: 60px auto;
     display: flex;
     gap: 10px;
+    align-items: center;
 }
 
 .pricing-block{
     background: white;
-    padding: 10px;
     border-radius: 3px;
     display: flex;
     flex-direction: column;
     align-items: center;
     color: #555555;
+    width: 50%;
 }
 
 .pricing-header{
@@ -19,15 +21,15 @@
 }
 
 .pricing-heading{
-    padding: 10px;
+    padding: 20px;
     font-weight: 700;
 }
 
 .pricing-price{
     display: flex;
     justify-content: space-between;
-    gap: 10px;
     margin-top: 10px;
+    color: #555555;
 }
 
 .pricing-price__currency{
@@ -48,15 +50,59 @@
 }
 
 .pricing-body{
-    margin-top: 20px;
+    margin: 50px 0 20px 0;
+    width: 100%;
+    text-align: center;
 }
 
 .pricing-features{
     display: flex;
     flex-direction: column;
-    justify-content: center;
 }
 
 .pricing-features li{
-    padding: 10px;
+    padding: 10px 0;
+    margin: 0;
+}
+
+.pricing-features li:nth-child(odd) {
+    background-color:#f8f8f8;
+}
+
+.pricing-footer {
+    padding: 20px;
+    background: #333;
+    width: -webkit-fill-available;
+    text-align: center;
+}
+
+.pricing-button,
+.pricing-button:link,
+.pricing-button:visited{
+    text-decoration: none;
+     text-transform: uppercase;
+     color: #ffffff;
+     background: #333;
+     border-bottom: dotted 0 #00B3B4;
+}
+
+
+.pricing-popular .pricing-price{
+    color: #ff8888;
+}
+
+.pricing-popular .pricing-footer{
+    background: #ff8888;;
+}
+
+.pricing-popular .pricing-button{
+    background: #ff8888;;
+}
+
+.pricing-popular .pricing-button:link{
+    background: #ff8888;;
+}
+
+.pricing-popular .pricing-button:visited{
+    background: #ff8888;;
 }
